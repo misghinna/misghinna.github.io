@@ -1,8 +1,14 @@
-#profile{
+#bg{
   position: relative;
-    width: 200px;
+  top: 0;
+  left: 0;
+}
+
+#profile{
+  position: absolute;
+  width: 200px;
   height: 200px;
   overflow:hidden;
   border-radius: 50%;
-  
 }
+
