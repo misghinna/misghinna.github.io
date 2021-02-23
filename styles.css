@@ -1,7 +1,12 @@
 
 body{
   width:1000px;
-  margin: auto;
+ 
+}
+
+div{
+position: relative; 
+margin: auto; 
 }
 
 #bg{
