@@ -1,18 +1,22 @@
 #imdiv{
+  position:relative;
+  rop:0;
+  left:0;
   
 }
 #bg{
   position: relative;
   top: 0;
   left: 0;
- z-index: 1;
 }
 
 #profile{
   position: absolute;
   width: 200px;
   height: 200px;
-   overflow:hidden;
+  overflow:hidden;
   border-radius: 50%;
+  top: 30px;
+  left:30px;
 }
 
