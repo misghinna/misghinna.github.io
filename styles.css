@@ -1,3 +1,8 @@
+body{
+  width: 1000px;
+  margin:auto;
+}
+
 #imdiv{
   position:relative;
   max-width:900px;
