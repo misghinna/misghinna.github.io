@@ -6,7 +6,7 @@ margin: auto;
 }
 
 #bg{
-  position: relative;
+  position: absolute;
   width: auto;
   height: 300px;
   top: 0;
