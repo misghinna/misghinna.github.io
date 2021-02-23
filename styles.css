@@ -1,11 +1,7 @@
 
-body{
-  width:1000px;
- 
-}
 
-div{
-position: relative; 
+div{ 
+max-width:1000px;
 margin: auto; 
 }
 
