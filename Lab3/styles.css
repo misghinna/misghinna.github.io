@@ -1,0 +1,33 @@
+body {
+    margin: auto;
+
+}
+
+#div1 {
+    margin: 50px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(179, 233, 215);
+}
+
+#b1 {
+    background-color: rgb(165, 165, 165);
+    /* Green */
+    border-radius: 8px;
+    color: white;
+    padding: 3px 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+    font-size: 24px;
+
+}
+
+img {
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+}
