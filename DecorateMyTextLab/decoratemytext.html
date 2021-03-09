@@ -23,19 +23,27 @@
 <!-- Your UI controls go here -->
 <fieldset>
     <legend>Text</legend>
-    <textarea id="tf" name="textfield" rows="4" cols="30"></textarea>
+    <textarea id="tf" name="textfield" rows="4" cols="30" placeholder="Please type some text ..."></textarea>
 </fieldset>
 <fieldset>
     <legend>Decoration:</legend>
-    <button type="submit" name="bigDec" onclick="myAlert()">Bigger Decoration!</button><br>
-    <input type="checkbox" id="chb" name="blng" value="Bling">
-    <label for="chb">Bling</label><br><br>
+    <button type="submit" name="bigDec" onclick="bigdeco()">Bigger Decoration!</button><br>
+    <input type="checkbox" id="chb" name="blng" onchange="checkbold()">Bling<br>
+    <!-- <label for="chb">Bling</label><br><br> -->
+    <button name="btn2" onclick="pig()">Igpay Atinlay</button>
+    <button name="btn3" onclick="markov()">Malkovich</button><br>
 
 </fieldset>
+<br>
 
-
-
-
+<div id="validation">
+    <a href="https://validator.w3.org/check/referer">
+        <img alt="Validate" src="images/w3c-html.png" />
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img alt="Valid CSS!" src="images/w3c-css.png" />
+    </a>
+</div>
 
 </body>
 
