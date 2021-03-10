@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCIImation</title>
+    <link rel="stylesheet" href="ascii.css">
+    <script src="animation.js"></script>
+    <script src="ascii.js"></script>
+</head>
+
+<body>
+    <h2 id="hdng">CSE 190 M ASCII Animation Viewer</h2>
+    <textarea name="window" id="tbx" cols="80" rows="20"></textarea>
+
+    <fieldset>
+        <legend>PlayControls</legend>
+        <input type="submit" name="start" id="startbtn" value="Start">
+        <input type="submit" name="stop" id="stopbtn" value="Stop">
+    </fieldset>
+    <fieldset>
+        <legend>Animation</legend>
+        <select name="anims" id="animSelect">
+            <option value="blank">Blank</option>
+            <option value="exercise">Exercise</option>
+            <option value="juggler">Juggler</option>
+            <option value="bike">Bike</option>
+            <option value="dive">Dive</option>
+            <option value="custom">Custom</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Size</legend>
+        <select name="size" id="sizeSelect">
+            <option value="tiny">Tiny</option>
+            <option value="small">Small</option>
+            <option value="medium" selected>Medium</option>
+            <option value="large">Large</option>
+            <option value="extralarge">Extra Large</option>
+            <option value="xxl">XXL</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Speed</legend>
+        <label><input type="checkbox" name="turbo" id="spdsel">Turbo</label>;
+    </fieldset>
+
+    <div id="validation">
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+    </div>
+
+</body>
+
+</html>
