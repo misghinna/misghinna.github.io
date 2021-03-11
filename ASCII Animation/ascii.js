@@ -53,7 +53,7 @@
         let speed;
 
         if (document.getElementById("spdsel").checked) {
-            speed = 170;
+            speed = 100;
         } else {
             speed = 250;
         }
